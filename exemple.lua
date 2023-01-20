@@ -46,6 +46,12 @@ function RageUI.PoolMenus:Example()
 
         Items:AddLine(255, 0, 0)
 
+        Items:AddButton("This is a simple button", "Simple button with RightLabel", { IsDisabled = false, RightLabel = "→" }, function(onSelected)
+            if onSelected then
+                print("Button selected")
+            end
+        end)
+
         Items:AddButton("This is a simple button with a right Badge !", "Simple button with RightLabel", { IsDisabled = false, RightLabel = "→", RightBadge = RageUI.BadgeStyle.Heart }, function(onSelected)
             if onSelected then
                 print("Button selected")
