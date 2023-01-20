@@ -1,2 +1,2 @@
 # RageUIx
-This is a modification of RageUI V3
+My own RageUix configuration.
