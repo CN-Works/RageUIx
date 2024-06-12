@@ -27,7 +27,7 @@ function RageUI.CreateMenu(Title, Subtitle, X, Y, TextureDictionary, TextureName
 	Menu.Display.Header = true;
 	Menu.Display.Subtitle = true;
 	Menu.Display.Background = true;
-	Menu.Display.Navigation = true;
+	Menu.Display.Navigation = false;
 	Menu.Display.InstructionalButton = false; -- False permet d'éviter les problèmes entre scaleform dans le même script
 	Menu.Display.PageCounter = true;
 
